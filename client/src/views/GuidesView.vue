@@ -37,6 +37,7 @@ const visible = computed(() => {
     <h1>Guider</h1>
 
     <div class="searchrow">
+      <p>{{ kalle }}</p>
       <input v-model="query" placeholder="Sök på namn eller landskap" />
       <span class="muted">{{ visible.length }} av {{ guides.length }}</span>
     </div>
