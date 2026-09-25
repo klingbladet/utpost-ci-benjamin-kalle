@@ -2,6 +2,7 @@
 defineProps({
   guide: { type: Object, required: true },
 })
+const kalle = 'denhär kommer skapa kaos'
 </script>
 
 <template>
