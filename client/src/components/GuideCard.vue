@@ -7,6 +7,7 @@ const kalle = 'denhär kommer skapa kaos'
 
 <template>
   <article class="card">
+    <p>Vem är Kalle? - {{ kalle }}</p>
     <h3>
       <RouterLink :to="`/guider/${guide.slug}`">{{ guide.title }}</RouterLink>
     </h3>
