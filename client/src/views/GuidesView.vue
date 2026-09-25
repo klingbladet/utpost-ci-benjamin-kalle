@@ -7,6 +7,7 @@ const guides = ref([])
 const query = ref('')
 const loading = ref(true)
 const error = ref(null)
+const kalle = 'kaos'
 
 const load = async () => {
   loading.value = true
